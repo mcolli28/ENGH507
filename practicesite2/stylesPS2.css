@@ -1,16 +1,131 @@
+
+
 p {
     font-size: 1.5em;
     font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
     font-style:normal;
     font-stretch:ultra-expanded
-    
+
+}
+h1, h2 {
+      padding: .25em;
+    margin: 200px 150x;
+  background: #555;
+  font-size: 30px;
+  color: white;
+    text-align: center
 }
 
+h1 a, h2 a {
+    color: yellow;
+    text-decoration: none;
+}
+h3 {
+      padding: .15em;
+    margin: 200px 150x;
+  background: purple;
+  font-size: 30px;
+  color: white;
+}
+h4 {
+        padding: .15em;
+    margin: 200px 150x;
+  background: orange;
+  font-size: 30px;
+  color: black;  
+}
+.callout {
+    text-align: left;
+    font-family: serif;
+    border-color: green
+        font-color: green;       
+}
+
+/* this image style needs to ignore table images*/
+img {
+    width: 20%;
+    height: 20%
+
+}
+.footer {
+
+    margin-left: 60em;
+    border-color: red;
+        color: red
+    
+}
+nav {
+    background: aqua;
+}
+nav ul{ 
+margin: 0;
+    padding: 0;
+    list-style: none
+}
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+    padding-top: .25em;  
+    position: relative
+}
+
+nav a{
+    color: firebrick;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+nav a::before {
+    display: block;
+    height: .05em;
+    width: 1em;
+    background-color: #444;   
+}
+article li {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+}
+.tabletitle {
+    text-align: rel:.table=center
+}
+        .table, td, th 
+{ padding: 1em;
+  border: 1px solid #ddd;
+  text-align: left;}
 a:hover { 
 color: chartreuse
 }
+
 table {
-    display: grid;
-  grid: 150px / auto auto auto;
-    
+    grid: 
+    border-color: red;
+    border-style: double;
+    column-gap: 5em;
+    table-layout: auto;
+  width: 180px; 
+}
+pre {
+    justify-content: center
+}
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+    float: right
+}
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+.callout-container {
+    padding: 15px;
+    background-color: forestgreen;
+        color: black;
 }
