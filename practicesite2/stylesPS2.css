@@ -41,8 +41,7 @@ h4 {
         font-color: green;       
 }
 
-/* this image style needs to ignore table images*/
-
+/* this image style ignores table images with a class="tabledata"*/
 img:not(.tabledata) {
     width: 20%;
     height: 20%
