@@ -42,11 +42,12 @@ h4 {
 }
 
 /* this image style needs to ignore table images*/
-img {
+
+img:not(.tabledata) {
     width: 20%;
     height: 20%
-
 }
+
 .footer {
 
     margin-left: 60em;
