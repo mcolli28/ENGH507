@@ -6,6 +6,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+</style>
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -28,6 +31,10 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+figcaption, figcaption a {
+    color: crimson
+}
+
 
 body {
 	line-height: 1;
@@ -160,10 +167,18 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+        color: cornsilk;
+        font-weight: 200;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        
+        
+    
+            
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: palevioletred;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -171,14 +186,16 @@ input, select, textarea {
 		text-transform: uppercase;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a{
+			color: lime;
 			text-decoration: none;
 		}
+
 
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
+        color: palevioletred
 	}
 
 		@media screen and (max-width: 736px) {
@@ -186,6 +203,7 @@ input, select, textarea {
 			h2 {
 				font-size: 1.1em;
 				line-height: 1.65em;
+                
 			}
 
 		}
@@ -193,6 +211,8 @@ input, select, textarea {
 	h3 {
 		font-size: 1.15em;
 		line-height: 1.75em;
+        color: palevioletred;
+        text-align: center;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -200,6 +220,8 @@ input, select, textarea {
 			h3 {
 				font-size: 1em;
 				line-height: 1.65em;
+                color: palevioletred;
+                
 			}
 
 		}
@@ -207,11 +229,15 @@ input, select, textarea {
 	h4 {
 		font-size: 1em;
 		line-height: 1.5em;
+        color: blue;
+        text-align: center;
+        
 	}
 
 	h5 {
 		font-size: 0.8em;
 		line-height: 1.5em;
+        
 	}
 
 	h6 {
@@ -223,6 +249,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		position: relative;
 		top: 0.5em;
+        color: palevioletred
 	}
 
 	sup {
@@ -233,8 +260,9 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #fff;
+		border-bottom: solid 10px #fff;
 		margin: 3em 0;
+        border-color: purple;
 	}
 
 		hr.major {
@@ -1755,7 +1783,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -1764,14 +1792,15 @@ input, select, textarea {
 		top: -0.25em;
 	}
 
-	header h3 + p {
-		font-size: 1.1em;
+	header h3 {
+		font-size: 5em;
+        
 	}
 
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 5em;
 	}
 
 	header.major {
@@ -1783,17 +1812,20 @@ input, select, textarea {
 			display: inline-block;
 			padding-bottom: 1em;
 			position: relative;
+            color: palevioletred;
 		}
 
 			header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
 				content: '';
 				display: block;
 				height: 1px;
+                color: palevioletred;
 			}
 
 		header.major p {
 			color: #fff;
 			top: 0;
+            color: palevioletred;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1808,6 +1840,7 @@ input, select, textarea {
 
 		header br {
 			display: none;
+            color: palevioletred;
 		}
 
 	}
@@ -2143,12 +2176,14 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
+            color: aquamarine
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+        color: aquamarine
 	}
 
 		ul li {
@@ -2817,8 +2852,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: grey;
+			color: #1836;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2850,7 +2885,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: grey;
 			}
 
 			.wrapper.style1 label {
@@ -2976,16 +3011,16 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: mediumvioletred;
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #275453;
 			color: #d3d4e4;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #ffffff;
+				color: #834742;
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
@@ -3010,6 +3045,7 @@ input, select, textarea {
 
 			.wrapper.style3 header.major h2, .wrapper.style3 header.major h3, .wrapper.style3 header.major h4, .wrapper.style3 header.major h5, .wrapper.style3 header.major h6 {
 				border-color: rgba(0, 0, 0, 0.125);
+                color: palevioletred;
 			}
 
 			.wrapper.style3 header.major p {
@@ -3143,7 +3179,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: sandybrown;
 			color: #4E4852;
 		}
 
@@ -3629,12 +3665,12 @@ input, select, textarea {
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
+			letter-spacing: 1.225em;
 			text-transform: uppercase;
 		}
 
 			#banner p a {
-				color: inherit;
+				color: red;
 			}
 
 		#banner .more {
@@ -3886,7 +3922,6 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
 		text-align: center;
 	}
 
@@ -3899,11 +3934,11 @@ input, select, textarea {
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: green;
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: #462;
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
 			list-style: none;
@@ -3964,19 +3999,12 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding-top: 0;
+		background-color: orange
+	
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: limegreen;
 	}
 
 	body.is-mobile.landing #page-wrapper {
