@@ -155,7 +155,16 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 		}
-
+a:visited {
+    color: #6c778c;
+}
+a:hover {
+    color: lime
+}
+a:active {
+    position: relative;
+    top: 4px;
+}
 	strong, b {
 		color: #fff;
 		font-weight: 600;
