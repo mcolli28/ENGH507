@@ -19,11 +19,6 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
-header {
-    	margin-bottom: 1em;
-	width: 200px;
-	height: 100px;
-}
 
 
 section:target{
