@@ -1,0 +1,286 @@
+/* Please insert all your CSS code into this document */
+html{
+    margin-right: 50px;
+    margin-bottom: 2em;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+h1:first-of-type{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+   font-family: 'Roboto Mono', monospace; 
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 10;
+    background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+    
+}
+h2 {
+	padding: .2em;
+	text-align: center;
+}
+.banner {
+	display: block;
+	margin: auto;
+	width: 80%;
+	}
+
+footer:first-of-type{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
+    background:
+linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+background-color:#e1ebbd;
+background-size: 128px 128px;
+background-size: 16px 48px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+#wrapper{
+	margin: 80px 0 105px 0;
+    position: relative;
+}
+article {
+	float: none;
+	}
+
+article p:last-of-type {
+	padding: 0 0 2em;
+	}
+
+/* Page 1 Styles */
+.body1 aside{
+	position: fixed;
+	left: 0;
+	width: 160px;
+	padding: 0 .4em;
+    font-family: 'Roboto Mono', monospace; 
+	}
+
+.body1 article{
+	position: fixed;
+	left: 160px;
+	height: 700px;
+	width: 1700px;
+	padding: 0 .2em;
+	overflow: scroll;
+	}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.body1 figure1{
+  width: 30%;
+  height: 200px;
+    display: block;
+    margin: auto;
+}
+.body1 .figure2{
+  width: 50%;
+  height: 50%;
+     display: block;
+    margin: auto;
+}
+
+.body1 .figure3{
+  width: 50%;
+  height: 50%;
+     display: block;
+    margin: auto;
+}
+    
+.body1 .figure4{
+  width: 50%;
+  height: 50%;
+     display: block;
+    margin: auto;
+}
+.body1 section p {
+    margin-right: 500px
+}
+.body1 article p {
+    margin-right: 500px
+}
+
+/* Page 2 Styles */
+
+.body2 aside {
+    position: fixed;
+	min-width: 130px;
+    font-family: 'Roboto Mono', monospace; 
+	}
+
+.body2 article{
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 30px;
+	overflow: auto;
+    margin-left: 150px
+	}
+
+.body2 .figure1 {
+  width: 50%;
+  height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.body2 .figure2 {
+	float: left;
+	margin: 10px 35px 10px 0px;
+	width: 170px;
+	}
+.body2 .figure3 {
+  width: 50%;
+  height: 50%;
+    display: block;
+    margin: auto;
+}
+.body2 .figure4 {
+	float: right;
+	margin: 10px 0px 10px 35px;
+	width: 170px;
+	}
+/* Page 3 Styles */
+.body3 aside {
+	float: left;
+    position: fixed;
+	min-width: 130px;
+    font-family: 'Roboto Mono', monospace; 
+	}
+
+.body3 article {
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 1em;
+	overflow: scroll;
+    margin-left: 150px;
+	}
+
+.body3 .figure1 {
+  width: 50%;
+  height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.body3 .figure2 {
+  width: 50%;
+  height: 50%;
+	float: right;
+	margin: 1em 0em 1em 2em;
+	width: 25%;
+	}
+
+.body3 .figure3 {
+  height: 50%;
+    width: 25%;
+	float: left;
+	margin: 1em 0em 1em 2em;
+	
+	}
+.body3 .figure4 {
+      width: 30%;
+  height: 30%;
+	margin: auto;
+	width: 25%;
+	}
+
+/* Page 4 Styles */
+.body4 aside{
+	display: inline-block;
+    position: fixed;
+	vertical-align: top;
+	width: 20%;
+	min-width: 130px;
+    font-family: 'Roboto Mono', monospace; 
+	}
+
+.body4 article {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	min-height: 400px;
+	min-width: 350px;
+    margin-left: 150px;
+	}
+
+.body4 .figure1 {
+  width: 50%;
+  height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.body4 .figure2{
+	float: right;
+	margin: 1em 0em 1em 2em;
+	width: 25%;
+	}
+
+.body4 .figure3{
+	float: left;
+	margin: 1em 2em 1em 0;
+	width: 25%;
+	}
+.body4 .figure4{
+
+	margin: auto;
+	width: 25%;
+	}
+/* Photo Gallery Styles */
+.body5 aside{
+    position: fixed;
+	vertical-align: top;
+	width: 20%;
+	min-width: 130px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace; 
+	}
+
+.body5 section{
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 1em;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.box1{
+     Border: solid 5px;
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    box-shadow: 19px 25px 49px 19px rgba(0,0,0,0.56);
+}
+.box1:hover{
+    color: yellow
+}
+.box{
+    Border: solid 5px;
+    display: inline-block;
+    width: 25%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    box-shadow: 19px 25px 49px 19px rgba(0,0,0,0.56);
+}
+
+.box:hover {
+      color: limegreen;
+}
+
+/* Page 5 Styles */

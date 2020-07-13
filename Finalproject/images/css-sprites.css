@@ -1,0 +1,14 @@
+.css-sprite-closedCoffeopen
+{
+background:url('css-sprite-combined.3.jpg') 0px -0px;
+width:700px;height:879px;
+display:inline-block;
+}
+
+.css-sprite-closedCoffeclosed
+{
+background:url('css-sprite-combined.3.jpg') -700px -555px;
+width:600px;height:324px;
+display:inline-block;
+}
+

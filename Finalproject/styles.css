@@ -1,0 +1,40 @@
+main {
+    position: relative;
+    width: 90%;
+    max-width: 1960px;
+    min-width: 400px
+    background-color: beige;
+    margin: 2%;
+    padding: 2%
+}
+article{
+
+}
+
+.col1{
+    Border: solid 5px;
+  display: inline-block;
+  width: 30%;
+  
+}
+.col1:hover{
+    
+}
+.col2{
+    
+    Border: solid 5px;
+    display: inline-block;
+    width: 30%;
+   
+    
+}
+.col3{
+    
+    Border: solid 5px;
+    display: inline-block;
+    width: 30%;
+    
+
+    
+    
+}
