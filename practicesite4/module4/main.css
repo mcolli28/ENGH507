@@ -61,8 +61,12 @@ article p:last-of-type {
 	}
 
 /* Page 1 Styles */
+#wrapper{
+	margin: 80px 0 105px 0;
+    position: relative;}
+
 .body1 aside{
-	position: fixed;
+	position: absolute;
 	left: 0;
 	width: 160px;
 	padding: 0 .4em;
@@ -70,7 +74,7 @@ article p:last-of-type {
 	}
 
 .body1 article{
-	position: fixed;
+	position: absolute;
 	left: 160px;
 	height: 700px;
 	width: 1700px;
