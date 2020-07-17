@@ -1,6 +1,5 @@
 body, html {
   height: 100%;
-   
 }
 
 .bg {
@@ -12,7 +11,7 @@ body, html {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -22,7 +21,6 @@ body {
   font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
     margin: auto;
     padding: auto;
-    
 }
 
 .banner{
@@ -43,22 +41,61 @@ body {
     display: flex;
     flex-direction: row;
     margin: auto;
-     -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-    
 }
 
-div{
+
+.col1 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: auto;
+    
+    
+}
+.col2 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
     margin: auto;
     
 }
+.col3 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: auto;
+    
+}
+.col4 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border: black 5px;
 
+    
+    
+}
+.col4 .div1{    
+    background-image: url("images/courthouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: black 5px; 
+    
+}
+.col5 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: auto;
+    
+}
+div{
+    margin: auto;
+    
+
+}
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -87,25 +124,30 @@ a li{
 
 footer{
     background: black;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     height: 60px;
-    
 }
 
-.spotlight:not(.image) {
+.spotlight {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
 		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
 		display: flex;
-    background-color: orange;
-    opacity: .8
 	}
 
 		.spotlight .image {
-			margin: 0;
-            order: 1;
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
 			border-radius: 0;
 			width: 40%;
-            z-index: 1;
 		}
 
 			.spotlight .image img {
@@ -115,12 +157,18 @@ footer{
 
 		.spotlight .content {
 			padding: 2em 4em 0.1em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
 			width: 60%;
 		}
 
 		.spotlight:nth-child(2n) {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
 			flex-direction: row-reverse;
 		}
 
