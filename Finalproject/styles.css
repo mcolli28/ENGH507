@@ -2,6 +2,7 @@
 
 body, html {
   height: 100%;
+    width: 100%;
    
 }
 
@@ -59,25 +60,22 @@ body {
 
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    background: black;
-    opacity: 1;
-    margin-top: 0px;
-    overflow: auto;
+  overflow: hidden;
+  background-color: #333;
     
     
 }
 
 
 nav ul li{
-    margin: auto;
-    background: silver;
-    color: red;
-    font-size: 200%;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    padding: inherit;
+    font-size: 50px;
 }
 li{list-style: none;
     
@@ -97,18 +95,40 @@ li:before{
     font-family: "times new roman";
     margin-top: -32px;
     margin-bottom: -32px;
-    padding-bottom: 32px
-
+    padding-bottom: 32px;
+    padding-left: 20px;
+    display: block;
 }
 
+
+.introimage{
+    float: right;
+    display: block;
+    margin-bottom: 100px;
+    padding-top: 50px;
+
+}
+}
 a li{
     background-color: white;
 }
-.metrolist a{
+a{
    color: silver
 }
-.metrolist a:hover{
+a:hover{
    color: #E07E14;
+}
+h2 a:hover {
+    color: #593E0F
+}
+.image{
+   transition: 1s ease; 
+}
+.image:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
 }
 
 footer{
@@ -144,7 +164,10 @@ footer{
 			max-width: 48em;
 
 		}
-
+.spotlight p{
+    font-size: 2em;
+    
+}
 		.spotlight:nth-child(2n) {
 			flex-direction: row-reverse;
 		}
@@ -155,6 +178,7 @@ footer{
 
 			.spotlight .image {
 				width: 45%;
+                
 			}
 
 			.spotlight .content {
