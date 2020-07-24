@@ -218,6 +218,9 @@ footer{
 
 		}
 /*Metro Stop Pages */
+.row h1, h2, h3, h4{
+    color: #E07E14
+}
 .column {
   float: left;
 }
