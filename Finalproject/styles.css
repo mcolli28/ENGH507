@@ -2,7 +2,6 @@
 
 body, html {
   height: 100%;
-    width: 100%;
    
 }
 
@@ -10,7 +9,7 @@ body, html {
   background-image: url("./images/metroheader.png");
 
   height: 100%;
-    width: 110%;
+    width: 100%;
 
   background-position: center;
   background-repeat: repeat;
@@ -93,6 +92,7 @@ li:before{
     padding-bottom: 32px;
     padding-left: 20px;
     display: block;
+    width: 100%;
 }
 
 
@@ -101,8 +101,6 @@ li:before{
     display: block;
     margin-bottom: 100px;
     padding-top: 50px;
-
-}
 }
 a li{
     background-color: white;
@@ -147,6 +145,7 @@ footer{
 			border-radius: 0;
 			width: 40%;
 		}
+
 			.spotlight .image img {
 				border-radius: 0;
 				width: 100%;
