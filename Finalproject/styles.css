@@ -133,9 +133,8 @@ transition: 1s ease;
 
 footer{
     background: black;
-    bottom: 0px;
     width: 100%;
-    height: 60px;
+    height: auto;
     
 
 }
